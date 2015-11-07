@@ -43,6 +43,7 @@ function loadDataset(anythingButThisDataset) {
 	});
 	document.getElementById("source-url").innerHTML = dataset.title;
 	document.getElementById("source-url").href = dataset.sourceUrl;
+	window.scrollTo(0, 0);
 }
 
 function redrawChart(animate) {
