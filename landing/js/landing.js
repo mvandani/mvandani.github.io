@@ -3,10 +3,6 @@ var datasets = [{
 	sourceUrl: 'https://datamarket.com/data/set/22ox/monthly-milk-production-pounds-per-cow-jan-62-dec-75',
 	url: 'landing/data/monthly-milk-production-pounds-p.csv'
 }, {
-	title: 'Mean daily temperature, Fisher River near Dallas, Jan 01, 1988 to Dec 31, 1991',
-	sourceUrl: 'https://datamarket.com/data/set/22ox/mean-daily-temperature-fisher-ri.csv',
-	url: 'landing/data/mean-daily-temperature-fisher-ri.csv'
-}, {
 	title: 'Price of chicken, 1924-1993, in constant $',
 	sourceUrl: 'https://datamarket.com/data/set/22l9/price-of-chicken-1924-1993-in-constant',
 	url: 'landing/data/price-of-chicken-19241993-in-con.csv'
