@@ -73,3 +73,9 @@ hr {
 #chart-source a {
 	color:#fff;
 }
+#portfolio {
+	padding-top: 10px;
+}
+.portfolio-item {
+	text-align: left;
+}
