@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+	<style>
+	html {
+		font-family: Georgia,serif;
+		margin: 0;
+		height: 100%;
+	}
+	body {
+		min-width: 920px;
+		max-width: 1200px;
+		margin: 0px auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	header {
+		margin: 10px 0px;
+		padding: 0;
+	}
+	h1 {
+		margin: 5px 0px;
+		padding: 0;
+	}
+	.byline {
+		font-weight: normal;
+		font-style: italic;
+		font-size: 100%;
+		margin-top: 10px;
+	}
+	#writeup {
+		margin-right: 675px;
+	}
+	.chart {
+		float: right;
+		width: 650px;
+	}
+	a {
+		color: royalblue;
+	}
+	a:not(:hover) {
+    	text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>How to Decide If You Should Eat That Hypothetical Mushroom</h1>
+	</header>
+
+	<div class='chart'>
+		<noscript>
+			<a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;Mushrooms&#47;Sheet1&#47;1_rss.png' style='border: none' /></a>
+		</noscript>
+		<object class='tableauViz' width='650' height="calc(100vh - 6em)" style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+			<param name='site_root' value='' />
+			<param name='name' value='Mushrooms&#47;Sheet1' />
+			<param name='tabs' value='no' />
+			<param name='toolbar' value='yes' />
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;Mushrooms&#47;Sheet1&#47;1.png' />
+			<param name='animate_transition' value='no' />
+			<param name='display_static_image' value='no' />
+			<param name='display_spinner' value='yes' />
+			<param name='display_overlay' value='no' />
+			<param name='display_count' value='no' />
+			<param name='showVizHome' value='no' />
+			<param name='showTabs' value='n' />
+			<param name='bootstrapWhenNotified' value='true' />
+		</object>
+	</div>
+
+	<div id="writeup">
+		<p>
+		The <a href="http://archive.ics.uci.edu/ml/index.html" target="_blank">UCI Machine Learning Repository</a> contains a <a href="http://archive.ics.uci.edu/ml/datasets/Mushroom" target="_blank">dataset</a> describing 22 attributes of 8124 hypothetical mushrooms, including whether or not these mushrooms are edible or poisonous. Let's assume you've found one of these mushrooms and want to know if it is safe to eat. No single attribute is enough to determine whether or not a mushroom is edible, but in this dataset the combination of odor, spore color, number of rings, texture of the stalk below the rings, and cap color can be used to determine ediblity with certainty.
+		</p>
+		<p>
+		Use this table as a flow chart to make your decision. Starting with odor, click on the cell that best describes the mushroom you're eyeing up. Then evaluate spore color and continue in that fashion. You can eat any mushroom with attributes that place it in a row with a blue square.
+		</p>
+		<p>
+		YMMV.
+		</p>
+		<div class="byline"><a href="http://michaelvandaniker.com">Michael VanDaniker</a> » 2015-11-19</div>
+	</div>
+</body>
+</html>
