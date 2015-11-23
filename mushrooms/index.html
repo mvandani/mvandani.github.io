@@ -4,65 +4,21 @@
 	<meta charset="utf-8">
 	<title>How to Decide If You Should Eat That Hypothetical Mushroom</title>
 	<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+	<link href="../assets/css/article.css" rel="stylesheet">
 	<style>
-	html {
-		font-family: Georgia,serif;
-		margin: 0;
-		height: 100%;
-	}
-	body {
-		width: 700px;
-		margin: 0px auto;
-	}
-	header {
-		margin: 10px 0px;
-		padding: 0;
-	}
-	h1 {
-		margin: 5px 0px;
-		padding: 0;
-	}
-	.byline {
-		font-weight: normal;
-		font-style: italic;
-		font-size: 100%;
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-	#writeup {
-		margin-bottom: 25px;
-	}
 	.chart {
 		width: 650px;
 		margin: 0 auto;
-	}
-	a {
-		color: royalblue;
-	}
-	a:not(:hover) {
-    	text-decoration: none;
 	}
 	</style>
 </head>
 <body>
 	<header>
 		<h1>How to Decide If You Should Eat That Hypothetical Mushroom</h1>
+		<div class="byline"><a href="http://michaelvandaniker.com">Michael VanDaniker</a> » 2015-11-19</div>
 	</header>
 
-	<div id="writeup">
-		<p>
-		The <a href="http://archive.ics.uci.edu/ml/index.html" target="_blank">UCI Machine Learning Repository</a> contains a <a href="http://archive.ics.uci.edu/ml/datasets/Mushroom" target="_blank">dataset</a> describing 22 attributes of 8124 hypothetical mushrooms, including whether or not those mushrooms are edible or poisonous. Let's assume you've found one of these mushrooms and want to know if it is safe to eat. No single attribute is enough to determine whether or not a mushroom from the dataset is edible, but the combination of odor, spore color, number of rings, texture of the stalk below the rings, and cap color can be used to determine ediblity with certainty.
-		</p>
-		<p>
-		Use this table as a flow chart to make your decision. Starting with odor, click on the cell that best describes the mushroom you're eyeing up. Then evaluate spore color and continue in that fashion. You can eat any mushroom with attributes that place it in a row with a blue square.
-		</p>
-		<p>
-		YMMV.
-		</p>
-		<div class="byline"><a href="http://michaelvandaniker.com">Michael VanDaniker</a> » 2015-11-19</div>
-	</div>
-
-	<div class='chart'>
+	<div class="chart">
 		<noscript>
 			<a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;Mushrooms&#47;Sheet1&#47;1_rss.png' style='border: none' /></a>
 		</noscript>
@@ -82,8 +38,21 @@
 			<param name='showTabs' value='n' />
 			<param name='bootstrapWhenNotified' value='true' />
 		</object>
-	</div>	
+	</div>
+
+	<article>
+		<p>
+		The <a href="http://archive.ics.uci.edu/ml/index.html" target="_blank">UCI Machine Learning Repository</a> contains a <a href="http://archive.ics.uci.edu/ml/datasets/Mushroom" target="_blank">dataset</a> describing 22 attributes of 8124 hypothetical mushrooms, including whether or not those mushrooms are edible or poisonous. Let's assume you've found one of these mushrooms and want to know if it is safe to eat. No single attribute is enough to determine whether or not a mushroom from the dataset is edible, but the combination of odor, spore color, number of rings, texture of the stalk below the rings, and cap color can be used to determine ediblity with certainty.
+		</p>
+		<p>
+		Use this table as a flow chart to make your decision. Starting with odor, click on the cell that best describes the mushroom you're eyeing up. Then evaluate spore color and continue in that fashion. You can eat any mushroom with attributes that place it in a row with a blue square.
+		</p>
+		<p>
+		YMMV.
+		</p>
+	</article>
 </body>
+<!--
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -93,4 +62,5 @@
   ga('create', 'UA-4848438-1', 'auto');
   ga('send', 'pageview');
 </script>
+-->
 </html>
