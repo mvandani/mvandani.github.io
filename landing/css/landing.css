@@ -81,10 +81,15 @@ hr {
 	padding-top: 10px;
 }
 .portfolio-item {
+	display: inline-block;
 	text-align: left;
+	margin-right: 20px;	
+}
+.portfolio-item:not(:last-child) {
+	margin-bottom: 30px;
 }
 .portfolio-item a div {
-	margin-bottom: 4px;	
+	margin-bottom: 10px;	
 }
 .portfolio-item img {
 	border: 1px solid #ccc;
